@@ -100,3 +100,4 @@ VITE_API_URL="http://localhost:8000"
 - `GET /api/experiments` &mdash; Returns experiment history.
 
 > **Offline / Demo Resilience:** When the backend server is offline or in demo mode, PRL transparently runs its deterministic client-side CVRP heuristic engine (Greedy Nearest Neighbor + 2-Opt local search + hardware timing models) to ensure uninterrupted demonstration and interactive experimentation without fabricating invalid results.
+
